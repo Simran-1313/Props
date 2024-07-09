@@ -1,0 +1,3 @@
+.child{
+    @apply my-[1rem] flex justify-center h-[3rem] rounded-xl p-[4px] items-center  flex-wrap
+}
