@@ -1,23 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+
+import Parent from "../src/Components/Parent"
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="text-white text-center h-[100vh] w-[100vw] flex-col  ">
+     <div>
+     <h2 className="text-black text-xl mt-[2rem] mb-[5rem]">Passing States From Parent to Child and Child to Parent</h2>
+     <Parent className="w-[50vw] min-w-[300px] max-w-[500px] m-auto h-[50vh] rounded-xl p-[2rem]   "  ></Parent>
+     </div>
     </div>
   );
 }
